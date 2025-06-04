@@ -2,13 +2,13 @@
 // Created by l6808 on 24.04.2025.
 //
 
-#ifndef OIAKP_CHECKCSA_H
-#define OIAKP_CHECKCSA_H
+#ifndef OIAKP_CHECKCSKA_H
+#define OIAKP_CHECKCSKA_H
 
 
 #include <cstdint>
 
-class CheckCSA {
+class CheckCSKA {
 public:
     // Sprawdza dla kazdego i czy csaR[i] == A[i] + B[i]
     // Wypelnia tablice ok[i] (true jesli zgodne)
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //OIAKP_CHECKCSA_H
+#endif //OIAKP_CHECKCSKA_H

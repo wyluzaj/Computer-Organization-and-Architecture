@@ -16,6 +16,6 @@ add_executable(OIAKP main.cpp
         include/WriteData.h
         Timer.cpp
         include/Timer.h
-        CheckCSA.cpp
-        include/CheckCSA.h
+        CheckCSKA.cpp
+        include/CheckCSKA.h
 )

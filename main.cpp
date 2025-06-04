@@ -5,7 +5,7 @@
 #include "include/AdderEta.h"
 #include "include/Timer.h"
 #include "include/CheckResult.h"
-#include "include/CheckCSA.h"
+#include "include/CheckCSKA.h"
 #include "include/WriteData.h"
 #include <string>
 #include <filesystem>
@@ -59,7 +59,7 @@ int main() {
                 tETA.stop(i);
             }
             // 2) weryfikacja CSA
-            CheckCSA::verify(A,B,csaR,ok,N);
+            CheckCSKA::verify(A, B, csaR, ok, N);
             int errors=0; for(int i=0;i<N;++i) if(!ok[i]) ++errors;
 
             // 3) compute OE, ACC, AP, avgOE, avgACC
